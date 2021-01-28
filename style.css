@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Tekton Pro;
+}
+.img2 {
+	float: left;
+   border-radius: 50%;
+   border: solid 10px;
+}
+
+.wrap .badan .sidebar img{
+	padding: 0px 0px;
+	margin: 30px;
+	width:80%;
+}
+ 
+.wrap{
+	background: #333333;
+	width: 900px;
+	height: 1370px;
+	margin: 10px auto;
+}
+
+.badan{
+	height:absolute;
+}
+/*bagian sidebar*/
+
+.wrap .badan .sidebar{
+	background: #DCDCDC;
+	float: right;	
+	width: 40%;
+	height: 1370px;
+}
+.wrap .badan .sidebar1{
+	padding: 0px;
+	font-size: 32px;
+	margin: 0px;
+}
+
+.wrap .badan .sidebar h2{
+	color:#FFFFFF;
+	
+}
+.wrap .badan .sidebar h3{
+	color:#000000;
+	line-height:0.025;
+}
+
+.wrap .badan .sidebar p{
+	color:#000000;
+	align:left;
+	width:100%;
+	margin:0% 5%;
+}
+
+/*akhir sidebar*/
+.wrap .badan .content{
+	background: #333333;
+	float: left;
+	height: 100%;
+	width: 60%;	
+	font-size: 16px;
+}
+.wrap .badan .container{
+	background: #333333;
+	float: left;
+		
+}
+.wrap .badan .container h1{
+	color:#F8FF00;
+	padding: 10px 25px 0px 25px;
+}
+
+.wrap .badan .content h3{
+	color:#F8FF00;
+	padding: 0px 25px 0px 25px;
+	line-height:0.1pt;
+	vlign:center;
+	
+}
+
+ .wrap .badan .content ul li {
+	 color:#FFFFFF;
+	 padding:10px 10px;
+	 line-height:1.2;
+	 vertical-align:top;
+ }
+	
+.wrap .badan .content td{
+	
+	padding:0px 17px;
+}
+.bulat {
+width: 100%;
+margin: 0% ;
+padding-left: 40px;
+}
+.circle {
+width: 15px;
+height: 15px;
+margin: 10px 5px;
+background: #000000;
+border: solid thin transparent;
+border-radius: 100%;
+font-size: 15px;
+font_weight: 600;
+float: left;
+color: #FFFFFF;
+text-align: center;
+}
+
+.circle p {
+margin-top: 10px;
+}
+
+.circle:hover {
+background: #FFFFFF;
+color: #20B2AA;
+border: solid thin #20B2AA;
+cursor: pointer;
+}
+
+span{
+	color: yellow;
+}
